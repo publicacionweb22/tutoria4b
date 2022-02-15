@@ -1,0 +1,31 @@
+/* Selectores CSS */
+
+/* Selector universal (selecciona todos los elementos, es utilizado para reseteo CSS) */
+
+* {
+   margin: 0;
+   padding: 0; 
+}
+
+/* Selector por atributo id (usa el símbolo #) */
+
+#logo {
+    box-shadow: 2px 2px 4px gray;
+    font-size: 28px;
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Selector por clase CSS (usa el símbolo .) */
+
+.destacado {
+    color: violet;
+}
+
+/* Selector por elemento (no usa símbolo) */
+
+ul {
+    margin: 20px;
+    padding: 20px;
+}
